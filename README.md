@@ -1,30 +1,73 @@
-HR Attrition & Workforce Cost Analysis — Polished
+# HR Attrition & Workforce Analysis
 
-Project Overview
-Analyzed employee attrition and workforce risk factors across 1,470 employees using Excel, segmenting attrition by department, age, tenure, salary, and overtime status to isolate which factors compound risk rather than reporting rates in isolation.
+## Project Overview
 
-Tools Used
-Microsoft Excel — XLOOKUP, SUMIFS, AVERAGEIFS, PivotTables, Conditional Formatting, Excel Charts
+Analyzed employee attrition and workforce patterns using Excel on 1,470 employee records.
 
-Analysis Performed
+The analysis focuses on identifying employee groups and organizational factors associated with higher attrition, including cross-segment analysis to identify high-risk combinations.
 
-Cleaned and standardized employee records; mapped department/role codes using XLOOKUP
-Built attrition KPIs and calculated attrition rates by department, age band, tenure band, salary band, and overtime status
-Cross-segmented high-risk combinations (e.g., role + tenure + overtime) to find compounding risk factors, not just single-variable averages
-Built an interactive Excel dashboard with conditional formatting to flag above-average attrition segments
+## Tools Used
 
-Key Findings
+- Microsoft Excel
+- XLOOKUP
+- SUMIFS
+- AVERAGEIFS
+- PivotTables
+- Conditional Formatting
+- Excel Charts
 
-Overall attrition: 16.1% (n=1,470)
-Sales had the highest departmental attrition at 20.6%
-Employees under 25 had 39.2% attrition — the highest age-band risk
-Employees with <2 years tenure had 34.9% attrition, nearly double the company average
-Overtime employees had 30.5% attrition vs. 10.4% for non-overtime — the single strongest predictor
-Sales Representatives with <2 years tenure and overtime showed 87.5% attrition (n=8) — a small but extreme-risk segment worth flagging with the caveat that the sample size is small
+## Analysis Performed
 
-Business Recommendations
+- Cleaned and standardized employee data
+- Created employee attrition KPIs
+- Calculated attrition rates
+- Analyzed attrition by department
+- Analyzed attrition by age band
+- Analyzed attrition by tenure band
+- Analyzed attrition by salary band
+- Analyzed attrition by overtime status
+- Analyzed attrition by job role
+- Cross-segmented job role, tenure, and overtime to identify compounding risk patterns
+- Built an Excel dashboard with KPI cards and visualizations
+- Used conditional formatting to highlight above-average attrition
+- Identified high-risk employee segments
 
-Introduce a structured 90-day and 6-month check-in for employees in their first 2 years, since tenure under 2 years is the strongest single tenure-based risk factor
-Audit overtime distribution in Sales specifically — since overtime nearly triples attrition risk, investigate whether it reflects understaffing or workload imbalance
-Pilot a retention intervention (comp review, workload rebalancing) targeted at new Sales Reps working overtime, given the extreme risk concentration in that segment
-Monitor the <25 age band for early-career engagement gaps separately from tenure-based churn, since it may reflect a different root cause (career growth vs. workload)
+## Key Findings
+
+- Overall employee attrition was **16.1%** across 1,470 employees.
+- **Sales** had the highest department attrition at **20.6%**.
+- Employees **under 25** had **39.2%** attrition, the highest age-band rate.
+- Employees with **less than 2 years of tenure** had **34.9%** attrition.
+- Employees working **overtime** had **30.5%** attrition compared with **10.4%** for employees without overtime.
+- **Sales Representatives** had the highest job-role attrition at **39.8%**.
+- Sales Representatives working overtime had **66.7%** attrition compared with **28.8%** for those without overtime.
+- Sales Representatives with **less than 2 years of tenure and overtime** showed **87.5% observed attrition (n=8)**, indicating a small but extreme-risk subgroup.
+
+## Dashboard
+
+The Excel dashboard summarizes:
+
+- Total employees
+- Employees who left
+- Overall attrition rate
+- Average tenure of employees who left
+- Attrition by department
+- Attrition by age band
+- Attrition by tenure band
+- Attrition by salary band
+- Attrition by overtime status
+- Key high-risk employee segments
+
+## Business Recommendations
+
+- Investigate retention challenges within the **Sales** department, particularly among Sales Representatives.
+- Introduce structured **90-day and 6-month check-ins** for employees during their first two years.
+- Review workload and overtime patterns, especially within Sales, to identify potential staffing or workload imbalances.
+- Prioritize retention interventions for **new Sales Representatives working overtime** due to the high observed attrition in this subgroup.
+- Monitor the **under-25 employee segment** for potential early-career engagement and career-development gaps.
+
+## Note
+
+The analysis identifies **observed associations and risk patterns** within the dataset and does not establish that factors such as overtime, salary, age, tenure, or job role directly cause employee attrition.
+
+The 87.5% attrition rate for Sales Representatives with less than 2 years of tenure and overtime is based on a small subgroup (**n=8**) and should therefore be treated as a signal for further investigation rather than a generalizable estimate.
