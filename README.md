@@ -17,7 +17,8 @@ The analysis focuses on identifying employee groups and organizational factors a
 
 ## Analysis Performed
 
-- Cleaned and prepared employee data and created derived analysis fields
+- Cleaned and prepared employee data
+- Created derived analysis fields
 - Created employee attrition KPIs
 - Calculated attrition rates
 - Analyzed attrition by department
