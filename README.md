@@ -9,7 +9,6 @@ The analysis focuses on identifying employee groups and organizational factors a
 ## Tools Used
 
 - Microsoft Excel
-- XLOOKUP
 - SUMIFS
 - AVERAGEIFS
 - PivotTables
@@ -18,7 +17,7 @@ The analysis focuses on identifying employee groups and organizational factors a
 
 ## Analysis Performed
 
-- Cleaned and standardized employee data
+- Cleaned and prepared employee data and created derived analysis fields
 - Created employee attrition KPIs
 - Calculated attrition rates
 - Analyzed attrition by department
